@@ -105,6 +105,7 @@ class MyViewport(QGLWidget):
                 QtCore.Qt.RightDockWidgetArea )
         mcc = QtGui.QWidget(mc)
         mcl = QtGui.QHBoxLayout(mcc)
+        print dir(mcl)
         mcv = QtGui.QDoubleValidator(mcc)
 
         mcx = TransformEdit(mcc)
